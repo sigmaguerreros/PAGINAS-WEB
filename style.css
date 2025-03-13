@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.header{
+    background-color: rgba(255, 253, 254, 0.333);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-color:floralwhite;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    object-fit: cover;
+    height:50%; 
+}
+.nav{
+    background-color: aquamarine;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 20px;
+    color: brown;
+}
+/*section 1*/
+.section-1{
+    background-image: url(bannerprincipal.jpg);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 a{
+    background-color: red;
+    padding:20 40px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffff;
+}
+.section-1 h1{
+    margin: 20px 0;
+    font-size: 52px;
+    color: red;
+}
+.section-1 p{
+    font-size: 20px;
+    color: #ffff;
+}
+
+/*section 2*/
+.section-2{
+    background-color: #ffff;
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.variedades{
+    width: 25%;
+    height: 88px;
+    border: 2px solid #bababb;
+}
+.textos{
+    width: 100%;
+    height: 40%;
+}
